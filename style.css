@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --vermelho-cereja:#880d1eff;
+    --aurinha:#dd2d4aff;
+    --rosa-maisoumenos:#f26a8dff;
+    --rosamistico:#f49cbbff;
+    --tituloBosta:"Alfa Slab One", serif;
+    --textolegal:"Montserrat", sans-serif;
+}
+
+body{
+    background: var(--rosa-maisoumenos);
+    font-family: var(--textolegal);
+}
+h1{
+    font-family: var(--tituloBosta);
+}
