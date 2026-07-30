@@ -14,6 +14,9 @@ body{
     background: var(--rosa-maisoumenos);
     font-family: var(--textolegal);
 }
-h1{
-    font-family: var(--tituloBosta);
+header{
+    background-color: var(--aurinha);
+    display: flex;
+    justify-content: space-between;
+    color: var(--rosamistico);
 }
