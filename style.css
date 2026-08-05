@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
 :root{
 
     --vermelho-cereja:#880d1eff;
@@ -17,6 +24,17 @@ body{
 header{
     background-color: var(--aurinha);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: var(--rosamistico);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--vermelho-cereja);
+    text-transform: uppercase;
+    font-size: 16px;
+
 }
