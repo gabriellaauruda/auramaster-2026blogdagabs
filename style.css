@@ -27,6 +27,10 @@ header{
     justify-content: space-around;
     color: var(--rosamistico);
 }
+.logo{
+    width: 10%;
+    border-radius: 100%;
+}
 
 .menu{
     display: flex;
@@ -67,4 +71,12 @@ header{
 .conteudo-texto{
     font-family: var(--rosamistico);
     font-size: 14px;
+}
+footer{
+    background-color: var(--aurinha);
+    color: var(--rosamistico);
+    font-family: var(--tituloBosta);
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
 }
